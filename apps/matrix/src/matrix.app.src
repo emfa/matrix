@@ -1,0 +1,16 @@
+{application, matrix, [
+	{description, "matrix homeserver"},
+	{vsn, "0.1.0"},
+	{registered, []},
+	{mod, {matrix_app, []}},
+	{applications, [
+		kernel,
+		stdlib,
+		cowboy
+	]},
+	{env,[]},
+	{modules, []},
+
+	{licenses, ["ISC"]},
+	{links, []}
+]}.
